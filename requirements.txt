@@ -1,0 +1,35 @@
+# ============================================================
+# requirements.txt — AI Real Estate Investment Agent
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# ── DATA LAYER ───────────────────────────────────────────────
+pandas==2.2.0
+openpyxl==3.1.2
+rapidfuzz==3.6.1
+
+# ── GOOGLE SHEETS ────────────────────────────────────────────
+gspread==5.12.0
+google-auth==2.27.0
+
+# ── ENVIRONMENT ──────────────────────────────────────────────
+python-dotenv==1.0.0
+
+# ── ASYNC HTTP (Groq + ElevenLabs + Partner SIP) ─────────────
+aiohttp==3.9.3
+
+# ── WEBSOCKETS (live SIP audio stream) ───────────────────────
+websockets==12.0
+
+# ── SPEECH TO TEXT (local Whisper — free, offline) ───────────
+faster-whisper==1.0.1
+
+# ── TTS FALLBACK (free, no key needed) ───────────────────────
+gtts==2.5.1
+
+# ── AUDIO ────────────────────────────────────────────────────
+soundfile==0.12.1
+
+# ── WEBHOOK SERVER (Make.com bridge) ─────────────────────────
+fastapi==0.110.0
+uvicorn==0.27.1

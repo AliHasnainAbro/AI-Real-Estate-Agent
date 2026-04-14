@@ -1,0 +1,34 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Secrets / credentials
+config/service_account.json
+*.key
+*.pem
+*.p12
+
+# Runtime data
+logs/
+data/
+
+# Python cache / virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.envrc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build / test artifacts
+.coverage
+.pytest_cache/
+htmlcov/
+*.log

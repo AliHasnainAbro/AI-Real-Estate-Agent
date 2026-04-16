@@ -323,7 +323,3 @@ gTTS("مرحبا", lang="ar").save("test.mp3")
 - **Call Limits**: Change `MAX_TURNS` in `call_orchestrator.py`
 
 ---
-
-## 📄 License
-
-[Your License Here]
